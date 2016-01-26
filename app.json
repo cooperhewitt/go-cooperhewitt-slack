@@ -1,0 +1,14 @@
+{
+  "name": "go-cooperhewitt-slack",
+  "description": "A few Slack slash commands for use with the Cooper Hewitt API",
+  "keywords": [
+    "cooperhewitt",
+    "go",
+    "slack",
+    "slash"
+  ],
+  "image": "heroku/go:1.5",
+  "mount_dir": "src/github.com/cooperhewitt/go-cooperhewitt-slack",
+  "website": "http://github.com/cooperhewitt/go-cooperhewitt-slack",
+  "repository": "http://github.com/cooperhewitt/go-cooperhewitt-slack"
+}

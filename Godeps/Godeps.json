@@ -1,14 +1,17 @@
 {
 	"ImportPath": "github.com/cooperhewitt/go-cooperhewitt-slack",
 	"GoVersion": "go1.5",
-    	"Packages": [
-	    "./..."
-	 ],
+	"Packages": [
+		"./..."
+	],
 	"Deps": [
-	    {
-		"ImportPath": "github.com/gin-gonic/gin"
-	    }
-
+		{
+			"ImportPath": "github.com/cooperhewitt/go-cooperhewitt-api",
+			"Rev": "2f68ffa0ce70119c6b7442a8ebe730631eb0e807"
+		},
+		{
+			"ImportPath": "github.com/jeffail/gabs",
+			"Rev": "b69c9e648a2529c8d7b927ba7f87bc7fe0b3b0ea"
+		}
 	]
-
 }

@@ -1,5 +1,14 @@
 {
 	"ImportPath": "github.com/cooperhewitt/go-cooperhewitt-slack",
 	"GoVersion": "go1.5",
-	"Deps": []
+    	"Packages": [
+	    "./..."
+	 ],
+	"Deps": [
+	    {
+		"ImportPath": "github.com/gin-gonic/gin"
+	    }
+
+	]
+
 }
